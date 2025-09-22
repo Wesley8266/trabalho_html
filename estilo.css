@@ -1,0 +1,8 @@
+.container {
+    background-color: brown;
+    display: block;
+    flex-direction: center;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
