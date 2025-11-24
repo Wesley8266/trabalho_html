@@ -1,8 +1,106 @@
-.container {
-    background-color: brown;
-    display: block;
-    flex-direction: center;
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu {
+    background-color: rgb(134, 3, 3);
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: end;
-    flex-wrap: wrap;
+    margin-right: 50px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 30px;
+    gap: 20px;
+
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url(img_fundo.png); */
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+.botao{
+    background-color: rgb(255, 0, 0);
+    font-weight: 900;
+    color: white;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 70px;
+    width: 200px;
+    border-radius: 500px;
+    margin: 40px;
+    
+}
+
+.fliper{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.parte2{
+    background-color: white ;
+}
+
+
+.jogos2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.jogos {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.fliperama{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
