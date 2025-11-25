@@ -11,7 +11,7 @@
     margin-right: 50px;
     list-style-type: none;
     margin: 0px;
-    padding: 30px;
+    padding: 20px;
     gap: 20px;
 
 }
@@ -39,7 +39,7 @@ body {
     background-repeat: no-repeat;
 }
 
-p,h3,h1,h2,.lis,.Pongue,.PacMan,.tetris,.space_invaders{
+p,h3,h1,h2,.temporadas{
     color: aliceblue;
     display: flex;
     flex-direction: column;
