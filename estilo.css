@@ -45,12 +45,19 @@ p,h3,h1,h2,.temporadas{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
 }
+
+.monstros{
+    list-style-type: none;
+}
+
 
 .pagina1{
     display: flex;
