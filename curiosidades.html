@@ -4,28 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jogos</title>
-    <style>
-        img {
-            width: 50px;
-        }
-    </style>
+    <title>jogos atuais</title>
     <link rel="stylesheet" href="estilo.css">
+    <sricpt src="interacao.js"></sricpt>
 </head>
 
-<body style="background-image: url(fundo\ do\ site.png)">
+<body style="background-image: url(fundo\ do\ site.png);">
+
     <nav class="nav">
         <div>
             <img class="logo"
                 src="img_fundo.png">
-            <ul class="menu">
-                <li><a href="principal.html">inicio</a></li>
-                <li><a href="jogos_antigos.html">jogos antigos</a></li>
-                <li><a href="jogos_atuais.html">jogos atuais</a></li>
-                <li><a href="fliperamas.html">fliperamas</a></li>
-                <li><a href="questionario.html">questionário</a></li>
-                <li><a href="#">area restrita</a></li>
+                <ul class="menu">
+                <li><a href="inicio.html">inicio</a></li>
+                <li><a href="temporadas.html">temporadas</a></li>
+                <li><a href="elenco.html">elenco</a></li>
+                <li><a href="sobre.html">sobre</a></li>
+                <li><a href="curiosidades.html">curiosidades</a></li>
             </ul>
         </div>
     </nav>
-    <input class="questionario" type="text">
+    <div class="pagina1">
+    <h1>CURIOSIDADES DA SÉRIE</h1>
+   
+    <button class="botao"
+    onclick="mostrarcuriosidade()">CURIOSIDADE</button>
+    <p id="curiosidade"></p>
+    </div>
