@@ -79,21 +79,14 @@ p,h3,h1,h2,.temporadas{
     width: 200px;
     border-radius: 500px;
     margin: 40px;
-    
 }
 
-.fliper{
+.elementos{
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
-
-.parte2{
-    background-color: white ;
-}
-
 
 .jogos2{
     color: aliceblue;
@@ -103,6 +96,7 @@ p,h3,h1,h2,.temporadas{
     text-align: center;
     list-style-type: none;
 }
+
 .jogos {
     list-style-type: none;
     display: flex;
@@ -112,8 +106,38 @@ p,h3,h1,h2,.temporadas{
     font-family: sans-serif;
 }
 
-.fliperama{
+.invertido{
   display: flex;
   justify-content: center; 
   align-items: center;
 }
+
+.elenco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0px;
+    border-radius: 30px;
+    height: 400px;
+    margin: 50px;
+}
+
+.conteudo {display: none;}
+
+.aberto {display: block;}
+
+.infor {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.icone {
+  transition: transform 0.3s;
+  color: white;
+}
+
+.rotated {transform: rotate(180deg);}
