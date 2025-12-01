@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
@@ -40,7 +40,11 @@ body {
     background-repeat: no-repeat;
 }
 
-p,h3,h1,h2,.temporadas{
+p,
+h3,
+h1,
+h2,
+.temporadas {
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -49,14 +53,14 @@ p,h3,h1,h2,.temporadas{
     margin-right: 100px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
 }
 
 
 
-.pagina1{
+.pagina1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +68,7 @@ p,h3,h1,h2,.temporadas{
     padding: 20%;
 }
 
-.botao{
+.botao {
     background-color: rgb(255, 0, 0);
     font-weight: 900;
     color: white;
@@ -79,14 +83,14 @@ p,h3,h1,h2,.temporadas{
     margin: 40px;
 }
 
-.elementos{
+.elementos {
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
-.jogos2{
+.jogos2 {
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -104,14 +108,15 @@ p,h3,h1,h2,.temporadas{
     font-family: sans-serif;
 }
 
-.invertido,.monstro,.laboratorio,.casa{
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
+.invertido,.monstro,.laboratorio,.casa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
 }
 
-.elenco{
+.elenco {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,8 +130,8 @@ p,h3,h1,h2,.temporadas{
     margin: 50px;
 }
 
-.curiosidade{
-    background-color: red;
+.curiosidade {
+    background-color:rgb(134, 3, 3);
     padding: 20px;
     border-radius: 30px;
     margin-left: 100px;
@@ -136,23 +141,26 @@ p,h3,h1,h2,.temporadas{
 }
 
 /* javascript */
-.caracteristicas{
+.caracteristicas {
     display: none;
+    flex-wrap: wrap;
 }
-.caracteristicas.ativo{
+
+.caracteristicas.ativo {
     display: block;
-    }
+    
+}
 
 .infor {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
 }
 
 .icone {
-  transition: transform 0.3s;
-  color: white;
+    transition: transform 0.3s;
+    color: white;
 }
-
-    
