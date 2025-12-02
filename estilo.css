@@ -1,3 +1,5 @@
+@import url("http://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+
 * {
     margin: 0%;
     padding: 0%;
@@ -142,12 +144,25 @@ h2,
 
 
 footer{
-    background-color: white;
+    background-color: rgb(134, 3, 3);
     padding: 50px;
 }
 
-
-
+.contatos,h4,.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    list-style-type: circle;
+    margin: 0px;
+    padding: 20px;
+    gap: 20px;
+}
+.contatos h4{
+    display: flex;
+    justify-content: start;
+    margin-right: 20px;
+}
 
 
 /* javascript */
