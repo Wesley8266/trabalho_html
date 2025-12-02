@@ -140,6 +140,16 @@ h2,
     gap: 100px;
 }
 
+
+footer{
+    background-color: white;
+    padding: 50px;
+}
+
+
+
+
+
 /* javascript */
 .caracteristicas {
     display: none;
