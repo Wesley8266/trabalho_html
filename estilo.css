@@ -142,13 +142,13 @@ h2,
     gap: 100px;
 }
 
-
+/*fot*/
 footer{
     background-color: rgb(134, 3, 3);
     padding: 50px;
 }
 
-.contatos,.footer-content {
+.contatos,.footer-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,6 +163,75 @@ footer{
     display: flex;
     justify-content: right;
     padding-right: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  height: 2px;
+  width: 50px;
+  background: #3c948b;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #bbb;
+  transition: 0.3s;
+}
+
+
+.footer-col ul li a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+
+.social-links a {
+  height: 40px;
+  width: 40px;
+  background: #333;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #3c948b;
 }
 
 
