@@ -39,6 +39,7 @@ a:hover {
 
 body {
     background-color: black;
+    background-repeat: no-repeat;
 }
 
 p,h3,h1,h2,.temporadas {
