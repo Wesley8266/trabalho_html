@@ -13,7 +13,7 @@
     margin-right: 50px;
     list-style-type: none;
     margin: 0px;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
     text-align: center;
 
@@ -38,16 +38,10 @@ a:hover {
 }
 
 body {
-    /* background-image: url(img_fundo.png); */
     background-color: black;
-    background-repeat: no-repeat;
 }
 
-p,
-h3,
-h1,
-h2,
-.temporadas {
+p,h3,h1,h2,.temporadas {
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -58,11 +52,10 @@ h2,
 
 .titulo {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 30pxpx;
     justify-content: center;
 }
-
-
 
 .pagina1 {
     display: flex;
@@ -128,10 +121,6 @@ h2,
 }
 
 
-/*fot*/
-footer{
-    background-color: rgb(134, 3, 3);
-}
 
 .contatos, h3{
     display: flex;
@@ -144,6 +133,7 @@ footer{
     padding: 10px;
     gap: 20px;
 }
+
 .contatos i{
     display: flex;
     justify-content: right;
@@ -158,6 +148,27 @@ footer p {
     display: flex;
     flex-direction: column;
 }
+
+/*footer*/
+footer{
+    background-color: rgb(134, 3, 3);
+    margin-top: 60%;
+}
+#footer-elenco{
+    margin-top: 50%;
+}
+
+#footer-curiosidades{
+    margin-top: 5%;
+}
+#footer-temp{
+    margin-top: 5%;
+}
+
+#footer-sobre{
+    margin-top: 5%;
+}
+
 
 /* javascript */
 .caracteristicas {
