@@ -15,6 +15,7 @@
     margin: 0px;
     padding: 20px;
     gap: 20px;
+    text-align: center;
 
 }
 
@@ -57,6 +58,7 @@ h2,
 
 .titulo {
     display: flex;
+    margin-top: 30px;
     justify-content: center;
 }
 
@@ -92,24 +94,6 @@ h2,
     align-items: center;
 }
 
-.jogos2 {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    text-align: center;
-    list-style-type: none;
-}
-
-.jogos {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-}
-
 .invertido,.monstro,.laboratorio,.casa {
     display: flex;
     flex-direction: column;
@@ -122,6 +106,7 @@ h2,
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     gap: 20px;
     margin-top: 0px;
@@ -139,16 +124,16 @@ h2,
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 20px;
-    gap: 100px;
+    gap: 500px;
 }
+
 
 /*fot*/
 footer{
     background-color: rgb(134, 3, 3);
-    padding: 50px;
 }
 
-.contatos,.footer-col {
+.contatos, h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,88 +149,28 @@ footer{
     justify-content: right;
     padding-right: 20px;
 }
-
-.container {
-  max-width: 1170px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+footer ul{
+    list-style-type: circle;
+    display:flex;
+    flex-direction:row ;
 }
-
-.footer-col {
-  width: 25%;
-  padding: 0 15px;
+footer p {
+    display: flex;
+    flex-direction: column;
 }
-
-.footer-col h4 {
-  font-size: 18px;
-  margin-bottom: 30px;
-  font-weight: 600;
-  position: relative;
-}
-
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  height: 2px;
-  width: 50px;
-  background: #3c948b;
-}
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col ul li {
-  margin-bottom: 12px;
-}
-
-.footer-col ul li a {
-  text-decoration: none;
-  color: #bbb;
-  transition: 0.3s;
-}
-
-
-.footer-col ul li a:hover {
-  color: #fff;
-  padding-left: 5px;
-}
-
-
-.social-links a {
-  height: 40px;
-  width: 40px;
-  background: #333;
-  margin-right: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.social-links a:hover {
-  background: #3c948b;
-}
-
-
-
 
 /* javascript */
 .caracteristicas {
     display: none;
+    position: absolute;
+    background-color: darkred;
+    border-radius: 30px;
     flex-wrap: wrap;
 }
 
 .caracteristicas.ativo {
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .infor {
